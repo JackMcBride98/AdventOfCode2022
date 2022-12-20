@@ -72,6 +72,7 @@ const DFS = (node, time, totalPresureReleased, unvisitedNodes, path) => {
     let newTime = time - node.leadsTo[unvisitedNode.name] - 1;
     let newPath = [...path, unvisitedNode.name];
     if (newTime > 0) {
+      maxValues.push({ totalPresureReleased, path });
       DFS(
         unvisitedNode,
         newTime,
