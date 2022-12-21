@@ -1,3 +1,4 @@
+Valve AA has flow rate=0; tunnels lead to valves JT, EZ, HZ, DW, EQ
 Valve TM has flow rate=3; tunnels lead to valves WB, PE, DX, TK, CH
 Valve ST has flow rate=21; tunnels lead to valves NS, DE, UX, XU
 Valve IX has flow rate=0; tunnels lead to valves DK, LR
@@ -32,7 +33,6 @@ Valve PE has flow rate=0; tunnels lead to valves TM, XO
 Valve DU has flow rate=0; tunnels lead to valves IN, IC
 Valve DX has flow rate=0; tunnels lead to valves TM, PR
 Valve EQ has flow rate=0; tunnels lead to valves AA, GP
-Valve AA has flow rate=0; tunnels lead to valves JT, EZ, HZ, DW, EQ
 Valve WB has flow rate=0; tunnels lead to valves TM, XX
 Valve PF has flow rate=23; tunnels lead to valves BP, WU
 Valve FJ has flow rate=19; tunnels lead to valves DO, TY, NN, PS

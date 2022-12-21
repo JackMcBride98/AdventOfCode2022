@@ -88,9 +88,9 @@ const DFS = (node, time, totalPresureReleased, unvisitedNodes, path) => {
 
 DFS(worthWhileMap.pop(), 26, 0, worthWhileMap, []);
 
-maxValues.sort((a, b) => b.totalPresureReleased - a.totalPresureReleased);
-
-console.log(maxValues[0].totalPresureReleased);
+maxValues = maxValues.sort(
+  (a, b) => b.totalPresureReleased - a.totalPresureReleased
+);
 
 let bestNonOverlappingPathScore = 0;
 
@@ -122,7 +122,6 @@ for (let i = 0; i < maxValues.length - 1; i++) {
         maxValues[i].totalPresureReleased + maxValues[j].totalPresureReleased;
       if (newTotalPressureReleased > bestNonOverlappingPathScore) {
         bestNonOverlappingPathScore = newTotalPressureReleased;
-        console.log('found');
       }
     }
   }
